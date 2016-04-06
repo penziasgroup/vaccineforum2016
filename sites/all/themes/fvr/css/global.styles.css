@@ -1,0 +1,292 @@
+body{
+    font-family: "Gotham A", "Gotham B";
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1#page-title{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#header-wrapper,
+#secondary-content-wrapper,
+#tertiary-content-wrapper{
+    background-color: #2b7368;
+    padding: 0 0 0 20px;
+}
+
+#main-content{
+    padding: 20px;
+}
+
+.region-header{
+    padding: 20px 0;
+    box-sizing: border-box;
+    max-width: 928px;
+}
+
+.region-header .block{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.region-header .block:last-child{
+    margin-right: 0;
+    float: right;
+}
+
+.region-header .block-content img,
+.tertiary-partners p img{
+    display: block;
+}
+
+.region-header .block p{
+    margin-bottom: 0;
+}
+
+.region-secondary-content{
+    background-image: url(images/fox-bat.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    overflow: hidden;
+}
+
+.region-secondary-content > .region-inner{
+    padding-bottom: 20px;
+}
+
+.region-secondary-content h2.block-title{
+    margin-top: 0;
+}
+
+.secondary-heading{
+    max-width: 928px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 90px 0px rgba(43,115,104,0.35);
+    -moz-box-shadow: 0px 0px 90px 0px rgba(43,115,104,0.35);
+    box-shadow: 0px 0px 90px 0px rgba(43,115,104,0.35);
+    margin-bottom: 50px;
+}
+
+.secondary-heading h2.block-title{
+    background-color: rgba(134,167,44,.64);
+    font-size: 14px;
+    color: #FFF;
+    margin-bottom: 0;
+    font-weight: 300;
+    padding: 4px 0;
+}
+.secondary-heading .block-content{
+    background: rgba(255,255,255,.64);
+}
+.secondary-heading .block-content p{
+    font-weight: 500;
+    letter-spacing: .4px;
+    line-height: 1.3;
+    padding: 7px 20px;
+    margin: 0;
+    font-size: 24px;
+    color: #2b7368;
+    text-transform: uppercase;
+}
+
+.secondary-vaccines{
+    margin-bottom: 50px;
+}
+
+.secondary-vaccines h2.block-title{
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    color: #bfd029;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+.secondary-vaccines .block-content p{
+    font-size: 24px;
+    line-height: 1.2;
+    color: #FFF;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.secondary-info .block-content p{
+    font-size: 16px;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.tertiary-partners p:first-child{
+    padding-top: 20px;
+    padding-left: 140px;
+}
+
+.tertiary-partners p{
+    font-size: 14px;
+    color: #c7d452;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+
+#main-content p{
+    margin-bottom: 15px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#main-content h2{
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+.form-item, .form-actions{
+    margin-top: 0;
+}
+button, input, select, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+}
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+}
+
+.webform-component{
+    clear: both;
+    position: relative;
+}
+.form-item label{
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #999;
+}
+
+.form-item.webform-component-checkboxes label{
+    position: relative;
+    top: initial;
+    left: initial;
+}
+
+.form-item.webform-component-select label{
+    display: none;
+}
+
+.webform-component{
+    width: 49%;
+}
+
+.webform-component--first-name,
+.webform-component--title,
+.webform-component--city,
+.webform-component--postal-code{
+    float: left;
+}
+
+.webform-component--last-name,
+.webform-component--company-or-organization,
+.webform-component--state,
+.webform-component--country{
+    float: left;
+    margin-left: 2%;
+    clear: none;
+}
+
+.webform-component--intro-text,
+.webform-component--do-you-require-assistance-with-hotel-reservations{
+    width: 100%
+}
+
+.webform-client-form .form-actions{
+    text-align: center;
+}
+
+.webform-client-form .form-checkboxes .form-item{
+    margin: 2px 0;
+}
+
+.webform-submit{
+    background: #2B7368;
+    color: #FFF;
+    border: none;
+    padding: 10px 26px 10px;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Gotham A", "Gotham B";
+    letter-spacing: .3px;
+}
+
+#content-wrapper{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.front #content > .block{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.front #content > .block:first-child{
+    padding-right: 3%;
+}
+
+.front #content article.node-full{
+    background: rgba(181,199,18,.5);
+    padding: 20px 30px;
+    color: #2b7368;    
+}
+
+#content article.node-full h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#content article.node-full h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2px;    
+}
+
+.field-group-format-title{
+    font-size: 14px;
+    text-decoration: none;
+    color: #2b7368;
+    text-decoration: underline;
+}
+
+.field-group-format-title:active{
+    color: #33333C;    
+}
+.field-group-format-title:focus{
+    outline: none;
+}
+
+#footer-wrapper{
+    background-color: #33333C;
+}
+
+#footer{
+    padding: 50px 15px 25px;
+    line-height: 1.5em;
+    color: #bbb;
+    font-size: 12px;
+}
+
+.footer-info img{
+    max-width: 280px;
+}
+.footer-info p{
+    margin-bottom: 30px;
+}
+.footer-info p:last-child{
+    margin-bottom: 0;
+}

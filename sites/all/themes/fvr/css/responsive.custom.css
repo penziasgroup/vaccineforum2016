@@ -1,0 +1,101 @@
+/*
+ * responsive.custom.css is for custom media queries that are not set via the
+ * theme settings, such as cascading media queries.
+ *
+ * By default all the other responsive stylesheets used in Adaptivetheme use a
+ * "stacking method", however cascading media queries use a waterfall method so
+ * you can leverage the cascade and inheritance for all browsers that support
+ * media queries.
+ *
+ * @SEE http://zomigi.com/blog/essential-considerations-for-crafting-quality-media-queries/#mq-overlap-stack
+ *
+ * NOTE: this file loads by default, to disable go to your theme settings and
+ * look under the "CSS" settings tab.
+ */
+/*
+ * Desktops/laptops and up
+ */
+@media only screen and (max-width: 1140px) {
+    #secondary-content-wrapper{
+        padding-left: 0;
+    }
+    .secondary-vaccines,
+    .secondary-info{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .region-header{
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 930px) {
+    .region-secondary-content{
+        background-size: cover;
+        background-position: top center;
+    }
+    .tertiary-partners{
+        text-align: center;
+    }
+    .tertiary-partners p:first-child{
+        padding-left: 0;
+    }
+    .front #content > .block{
+        width: 100%;
+        float: none;
+    }
+    .front #content > .block:first-child{
+        margin-bottom: 25px;
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .fvr-logo{
+        width: 350px;
+    }
+    .nam-logo{
+        width: 320px;
+    }
+    .region-secondary-content > .region-inner{
+        background-color: rgba(0,0,0,.25);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .fvr-logo{
+        width: auto;
+    }
+    .nam-logo{
+        width: auto;
+    }    
+    .region-header .block{
+        text-align: center;
+        display: block;
+    }
+    .region-header .block-content img{
+        display: inline;
+    }
+    .region-header .block:last-child{
+        float: none;
+    }
+    .tertiary-partners p{
+        margin-right: 3%;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .tertiary-partners p:first-child{
+        display: block;
+    }
+    .secondary-heading .block-content p{
+        font-size: 20px;
+    }
+    .webform-component{
+        width: 100%;
+    }
+    .webform-component--first-name, .webform-component--title, .webform-component--city, .webform-component--postal-code,
+    .webform-component--last-name, .webform-component--company-or-organization, .webform-component--state, .webform-component--country{
+        float: none;
+        margin-left: 0;
+        clear: both;
+    }
+}
+@media only screen and (max-width: 465px) {
+}
