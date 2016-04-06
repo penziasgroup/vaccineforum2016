@@ -87,6 +87,7 @@
     .secondary-heading .block-content p{
         font-size: 20px;
     }
+    /*
     .webform-component{
         width: 100%;
     }
@@ -96,6 +97,7 @@
         margin-left: 0;
         clear: both;
     }
+    */
 }
 @media only screen and (max-width: 465px) {
 }

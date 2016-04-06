@@ -71,7 +71,7 @@ h1#page-title{
 
 .secondary-heading h2.block-title{
     background-color: rgba(134,167,44,.64);
-    font-size: 14px;
+    font-size: 16px;
     color: #FFF;
     margin-bottom: 0;
     font-weight: 300;
@@ -160,7 +160,7 @@ input[type="checkbox"], input[type="radio"] {
     clear: both;
     position: relative;
 }
-.form-item label{
+.webform-client-form .form-item label{
     font-weight: 400;
     font-size: 14px;
     position: absolute;
@@ -178,7 +178,7 @@ input[type="checkbox"], input[type="radio"] {
 .form-item.webform-component-select label{
     display: none;
 }
-
+/*
 .webform-component{
     width: 49%;
 }
@@ -203,7 +203,7 @@ input[type="checkbox"], input[type="radio"] {
 .webform-component--do-you-require-assistance-with-hotel-reservations{
     width: 100%
 }
-
+*/
 .webform-client-form .form-actions{
     text-align: center;
 }
