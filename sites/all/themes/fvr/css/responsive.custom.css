@@ -76,14 +76,20 @@
     .region-header .block:last-child{
         float: none;
     }
-    .tertiary-partners p{
-        margin-right: 3%;
-    }
 }
-@media only screen and (max-width: 630px) {
-    .tertiary-partners p:first-child{
+@media only screen and (max-width: 730px) {
+    .tertiary-partners .block-content{
         display: block;
     }
+    .tertiary-partners p:first-child {
+        padding-left: 0;
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+        width: auto;
+    }    
+}
+@media only screen and (max-width: 630px) {
     .secondary-heading .block-content p{
         font-size: 20px;
     }
@@ -100,4 +106,11 @@
     */
 }
 @media only screen and (max-width: 465px) {
+    .tertiary-partners p:first-child {
+        margin-bottom: 10px;
+    }
+    .tertiary-partners p{
+        display: block;
+        width: auto;
+    }
 }

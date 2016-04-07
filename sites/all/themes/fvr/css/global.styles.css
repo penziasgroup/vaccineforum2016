@@ -36,8 +36,7 @@ h1#page-title{
     float: right;
 }
 
-.region-header .block-content img,
-.tertiary-partners p img{
+.region-header .block-content img{
     display: block;
 }
 
@@ -122,6 +121,14 @@ h1#page-title{
 .tertiary-partners {
     text-align: center;
     padding: 0 20px;
+    max-width: 810px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.tertiary-partners .block-content{
+    display: table;
+    width: 100%;
 }
 
 .tertiary-partners p:first-child{
@@ -132,10 +139,9 @@ h1#page-title{
 .tertiary-partners p{
     font-size: 14px;
     color: #c7d452;
-    display: inline-block;
+    display: table-cell;
     vertical-align: top;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 33.33%;
     margin-bottom: 0;
 }
 .tertiary-partners p:last-child{
