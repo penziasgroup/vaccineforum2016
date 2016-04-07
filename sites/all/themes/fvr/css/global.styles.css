@@ -193,32 +193,34 @@ input[type="checkbox"], input[type="radio"] {
 .form-item.webform-component-select label{
     display: none;
 }
-/*
-.webform-component{
-    width: 49%;
-}
 
 .webform-component--first-name,
-.webform-component--title,
-.webform-component--city,
-.webform-component--postal-code{
-    float: left;
+.webform-component--last-name{
+    max-width: 275px;
+}
+.webform-component--email-address{
+    max-width: 275px;
+}
+.webform-component--title{
+    max-width: 275px;
+}
+.webform-component--city{
+    max-width: 200px;
 }
 
-.webform-component--last-name,
-.webform-component--company-or-organization,
-.webform-component--state,
+.webform-component--company-or-organization{
+    max-width: 350px;
+}
+.webform-component--state{
+    max-width: 200px;
+}
 .webform-component--country{
-    float: left;
-    margin-left: 2%;
-    clear: none;
+    max-width: 200px;
+}
+.webform-component--phone-number{
+    max-width: 200px;
 }
 
-.webform-component--intro-text,
-.webform-component--do-you-require-assistance-with-hotel-reservations{
-    width: 100%
-}
-*/
 .webform-client-form .form-actions{
     text-align: center;
 }
