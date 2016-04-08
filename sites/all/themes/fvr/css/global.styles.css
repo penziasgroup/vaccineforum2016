@@ -26,6 +26,11 @@ h1#page-title{
     margin: auto;
 }
 
+.region-header .region-inner{
+    max-width: 860px;
+    margin: auto;
+}
+
 .region-header .block{
     display: inline-block;
     margin-bottom: 0;
